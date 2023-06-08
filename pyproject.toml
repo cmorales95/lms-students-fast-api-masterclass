@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fast-api-crash-course"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Morales <crisdavidmm95.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fast_api_crash_course"}]
+
+[tool.poetry.dependencies]
+python = "3.10.11"
+uvicorn = "0.22.0"
+fastapi = "0.96.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
