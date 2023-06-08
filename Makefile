@@ -7,5 +7,5 @@ env-activate:
 init:
 	@poetry init
 
-run-uvicorn:
+run:
 	@uvicorn main:app --reload
